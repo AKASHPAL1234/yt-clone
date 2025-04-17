@@ -7,7 +7,8 @@ import { IoArrowBackSharp } from "react-icons/io5";
 
 import React, { useEffect, useState } from "react";
 import Logo from "../assets/y-logo.png";
-import Profile from "../assets/Profile.jpg";
+import Profile from '../assets/profile.jpg';
+
 import { useNavigate } from "react-router-dom";
 import { useUtils } from "../context/Utilcontext";
 
