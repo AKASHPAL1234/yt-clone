@@ -51,7 +51,7 @@ function Navbar() {
             type="text"
             placeholder="Search"
             className="outline-none  "
-            onChange={(e)=>searchQuery(e.target.value)}
+            onChange={(e)=>setSearchQuery(e.target.value)}
             onKeyUp={searchQueryHandeler}
             value={searchQuery}
           />
